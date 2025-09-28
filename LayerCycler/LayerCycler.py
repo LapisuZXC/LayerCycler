@@ -52,7 +52,7 @@ class LayerCyclerDocker(DockWidget):
             return
         for layer in self.layers:
             layer.setVisible(False)
-        self.layers[-1].setVisible(True)
+        self.layers[-1].setVisible(True)  # ???
         self.current_idx = len(self.layers) - 1
         self.layers[0].setVisible(True)
         self.doc.refreshProjection()
@@ -64,10 +64,11 @@ class LayerCyclerDocker(DockWidget):
             return
         for layer in self.layers:
             layer.setVisible(False)
+        self.layers[0].setVisible(True)
         if self.layers[1]:
             self.layers[1].setVisible(True)
         self.current_idx = 1
-        self.layers[0].setVisible(True)
+
         self.doc.refreshProjection()
         self.update_label()
 
@@ -97,8 +98,7 @@ class LayerCyclerDocker(DockWidget):
 
     def update_label(self):
         if self.layers and self.current_idx is not None:
-            self.lbl.setText(f"Current Layer: {
-                             self.layers[self.current_idx].name()}")
+            self.lbl.setText(f"Current Layer: {self.layers[self.current_idx].name()}")
         else:
             self.lbl.setText("Current Layer: None")
 

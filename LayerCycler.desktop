@@ -3,6 +3,6 @@ Type=Service
 ServiceTypes=Krita/PythonPlugin
 X-KDE-Library=LayerCycler
 X-Python-2-Compatible=false
-X-Krita-Manual=Manual.html
 Name=LayerCycler
-Comment=Replace this text with your description
+Comment=Cycle through layers / Переключение слоев
+
