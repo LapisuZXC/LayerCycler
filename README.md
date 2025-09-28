@@ -109,7 +109,7 @@
 3. Склонируйте репозиторий:
 
    ```bash
-   git clone https://github.com/ВАШ-НИК/LayerCycler.git
+   git clone https://github.com/LapisuZXC/LayerCycler.git
    ```
 
 4. Перезапустите Krita, включите плагин в *Python Plugin Manager* и затем включите докер в *Dockers*.
@@ -125,7 +125,7 @@
 1. Склонируйте репозиторий в любое удобное место:
 
    ```bash
-   git clone https://github.com/ВАШ-НИК/LayerCycler.git ~/Documents/KritaPlugins/LayerCycler
+   git clone https://github.com/LapisuZXC/LayerCycler.git ~/Documents/KritaPlugins/LayerCycler
    ```
 
 2. Создайте симлинки в папке `pykrita`:
