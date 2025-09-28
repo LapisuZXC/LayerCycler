@@ -86,7 +86,7 @@
 
 5. Включите плагин в `Settings → Configure Krita... → Python Plugin Manager` (или рус.: `Настройки → Настроить Krita... → Менеджер Python-плагинов`).
 ![Python Plugin Manager](docs/images/enable_checkbox.png)
-6. Включите докер: `Settings → Dockers → Layer Cycler` (или рус.: `Настройки → Докеры → Layer Cycler`).
+7. Включите докер: `Settings → Dockers → Layer Cycler` (или рус.: `Настройки → Докеры → Layer Cycler`).
 
 
 ![Dockers Layer Cycler](docs/images/add_docker.png)
@@ -121,6 +121,8 @@
    ```
 
 4. Перезапустите Krita, включите плагин в *Python Plugin Manager* и затем включите докер в *Dockers*.
+   ![Python Plugin Manager](docs/images/enable_checkbox.png)
+   ![Dockers Layer Cycler](docs/images/add_docker.png)
 
 ---
 
@@ -166,10 +168,13 @@
 ## Простая проверка — если плагин не появился
 
 1. Убедитесь, что папка `LayerCycler` действительно лежит внутри `pykrita` (а не, например, в `pykrita/LayerCycler/LayerCycler`).
-2. Проверьте, что плагин включён в 
-3. Перезапустите Krita.
-4. Включите панель в `Settings → Dockers`.
-5. Если не видно — проверьте права доступа к файлам.
+2. Проверьте, что плагин включён в `Settings → Configure Krita... → Python Plugin Manager` (или рус.: `Настройки → Настроить Krita... → Менеджер Python-плагинов`).
+![Python Plugin Manager](docs/images/enable_checkbox.png)
+4. Перезапустите Krita.
+5. Включите панель в `Settings → Dockers`.
+
+   ![Dockers Layer Cycler](docs/images/add_docker.png)
+6. Если не видно — проверьте права доступа к файлам.
 
 ---
 
