@@ -55,7 +55,7 @@
 * **Windows:**
 
   ```text
-  C:\Users\<Ваше_имя>\AppData\Roaming\krita\pykrita
+  %APPDATA%\krita\pykrita
   ```
 
   (если папки `pykrita` нет — создайте её)
