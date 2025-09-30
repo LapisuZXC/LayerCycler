@@ -24,11 +24,15 @@ class LayerCyclerDocker(DockWidget):
 
         btn_hide_all_but_top = QPushButton("Hide All but Top")
         btn_hide_all_but_top.clicked.connect(self.hide_all_but_top)
-        layout.addWidget(btn_hide_all_but_top, 1, 0, 1, 2)
+        layout.addWidget(
+            btn_hide_all_but_top,
+            1,
+            0,
+        )
 
         btn_hide_all_but_bottom = QPushButton("Hide All but Bottom")
         btn_hide_all_but_bottom.clicked.connect(self.hide_all_but_bottom)
-        layout.addWidget(btn_hide_all_but_bottom, 1, 1, 1, 2)
+        layout.addWidget(btn_hide_all_but_bottom, 1, 1)
 
         btn_up = QPushButton("Move Layer Up")
         btn_up.clicked.connect(self.move_up)
